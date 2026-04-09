@@ -4,6 +4,8 @@ An industrial-grade, headless edge AI appliance designed for zero-touch autonomo
 
 Designed for field resiliency, the architecture features aggressive hardware watchdogs, dynamic V4L2 symlink resolution, and self-recovering `systemd` daemon management.
 
+<img width="720" height="1280" alt="image" src="https://github.com/user-attachments/assets/a9b3dbdf-4a4e-43fc-a808-fbb476b2ca69" />
+
 ## ⚙️ Hardware Stack
 * **Compute:** Nvidia Jetson (ARM64 Ubuntu)
 * **Microcontroller:** ESP32 (PWM Kinematics Execution)
@@ -27,6 +29,9 @@ The system operates entirely headless, orchestrated by a robust `core.launch.py`
 * **Static Hardware Binding:** Custom `udev` rules ensure the Linux kernel permanently locks the camera and ESP32 to predictable symlinks, regardless of USB enumeration order.
 
 ---
+
+<img width="777" height="547" alt="image" src="https://github.com/user-attachments/assets/34fa93b1-b020-465a-b52d-c90a3ae0dab5" />
+
 
 ## 🚀 Deployment Guide
 
